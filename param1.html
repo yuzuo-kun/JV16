@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サーブレットへデータ送信</title>
+  </head>
+  <body bgcolor="#ffffff">
+    param1.html
+    <br>
+    <form method="post" action="/JV16/servlet/param1">
+      <center>
+        <h1>サーブレットさんへデータを送ります</h1>
+        <br><br>
+        お名前:<input name="NAMAE"><br>
+        <br>
+        性別:
+        <input type="radio" name="SEIBETU" value="1">男性
+        <input type="radio" name="SEIBETU" value="2">女性
+        <br><br>
+        年齢:
+        <input type="text" name="TOSHI" size="5" value="">歳
+        <br><br>
+        住所:
+        <select size="1" name="ADDRESS1">
+          <option value="岐阜県">岐阜県</option>
+          <option value="静岡県">静岡県</option>
+          <option value="愛知県">愛知県</option>
+        </select>
+        <br><br>
+        <button type="submit">このボタンを押してね</button>
+        <button type="reset">入力クリア</button>
+      </center>
+    </form>
+    <hr>
+  </body>
+</html>

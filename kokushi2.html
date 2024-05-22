@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サーブレットへデータ送信</title>
+</head>
+<body style="background-color: #fff;">
+    <p>kokushi2.html</p>
+    <br>
+    <form method="post" action="/JV16/kokushi2.jsp">
+        <center>
+
+            <h1>国家試験判定</h1>
+            <br><br>
+
+
+            <label for="namae">お名前：</label>
+            <input type="text" id="namae" name="namae">
+
+            <label for="gakunen">  学年：</label>
+            <select name="gakunen" id="gakunen">
+                <option value="１年生">１年生</option>
+                <option value="２年生">２年生</option>
+                <option value="３年生">３年生</option>
+                <option value="４年生">４年生</option>
+            </select>
+            <br><br>
+
+
+            <label for="gozen">午前得点：</label>
+            <input type="text" id="gozen" name="gozen">点
+            <br>
+
+            <label for="gogo">午後得点：</label>
+            <input type="text" id="gogo" name="gogo">点
+            <br><br>
+
+            <button type="submit">このボタンを押してね</button>
+            <button type="reset">入力クリア</button>
+        </center>
+    </form>
+
+    <hr>
+
+</body>
+</html>
